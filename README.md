@@ -9,3 +9,6 @@ Open up Blender and go to the "Scripting" tab. Click "Open" and select the downl
 
 pathvar - Set this to an ABSOLUTE path of where your animdata.json file is. Make sure it looks like "C:\Users\user\animdata.json" and not "/animdata.json"
 crig - Set this to the object name of the character your are using the Facial Capture with. Keep in mind at the moment the eye capture only works on 2000s rigs, but the mouth works for any rig.
+betterMouth - Set this to the object name of your character's mouth; MAKE SURE THE OBJECT DATA OF THAT MOUTH IS LINKED TO THE CUSTOM FACECAP MOUTH
+
+Once you've set the following variables, set your frame in the timeline to the first frame of your capture data. Click the "Run Script" button at the top of the scripting window. Afterwards, you should be all set!
